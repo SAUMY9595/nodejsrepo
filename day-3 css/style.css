@@ -1,0 +1,52 @@
+ .btn{
+   
+    background-color : rgb(4,178,109);
+    color: var(--background-color);
+    width:fit-content;
+    margin: 10px auto;
+
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    scale: 1.2;
+    opacity: 0.9;
+
+    transition:all 2000ms ease;
+    
+}
+.btn:hover{
+    scale: 1.3;
+    opacity: 1;
+}
+
+div.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:visited{
+    color:green
+
+} 
+ul{
+    background-color: beige;
+}
+p:nth-child(4){
+    color: red;
+}
+li:first-child{
+    color: blue;
+}
+li:nth-child(2){
+    color: green;
+}
+li:last-child{
+    color: red;
+}
+li:first-of-type{
+    color: blue;
+}
+p:last-of-type{
+    color: green;
+}

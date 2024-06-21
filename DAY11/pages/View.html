@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product View</title>
+    <style>
+        .details {
+  /* Example styles */
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px; /* Padding around the content */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 600px; /* Maximum width */
+  margin: 20px auto; /* Centering */
+}
+
+.details h2 {
+  color: #333; /* Dark grey color for the title */
+  text-align: center; /* Center-align the title */
+}
+
+.details img {
+  display: block; /* Block display to take full width */
+  max-width: 100%; /* Ensure image is not bigger than its container */
+  height: auto; /* Keep aspect ratio */
+  margin: 0 auto; /* Center the image */
+}
+
+.details p {
+  color: #666; /* Medium grey color for text */
+  line-height: 1.6; /* Spacing between lines */
+}
+        /* Add your CSS here */
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <h2>${product.title}</h2>
+        <img src="${product.thumbnail}" alt="Product Image">
+        <p>${product.price}</p>
+        <p>${product.description}</p>
+        <a href="/products">Back to Products</a>
+    </div>
+</body>
+</html>

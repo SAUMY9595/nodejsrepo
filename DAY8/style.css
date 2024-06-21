@@ -1,0 +1,22 @@
+main {
+    padding: 20px;
+    background-color: #e7f5eb;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+}
+main > div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    align-content: center;
+}
+img {
+    width: 50%; /* Corrected the width property */
+    border-radius: 5px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+
+}
